@@ -9,6 +9,8 @@
    countDemo is {countDemo}
  </button>
 
+<input type="text" bind:value={countDemo}>
+
    <style>
       button {
          background-color: #ff3e00;
