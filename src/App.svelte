@@ -2,7 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
-  import CounterDemo from './lib/CounterDemo.svelte' 
+  import CounterDemo from './lib/CounterDemo.svelte'
 </script>
 
 <main>
