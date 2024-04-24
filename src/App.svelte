@@ -3,10 +3,10 @@
    let src = 'https://picsum.photos/350/200';
    let src2 = 'https://picsum.photos/850/120';
    let pString = 'This is a <strong>paragraph</strong> string';
-   let pImg = `This is a test image <img src='${src2}' />`;
+   let pImg = `This is a test image <img src='${src2}' class='image1' />`;
 </script>
 
-<img {src} alt={`random image for ${name}`}>
+<img {src} alt={`random image for ${name}`} class='image1' />
 
 <h1>Hello {name.toUpperCase()}!</h1>
 
@@ -19,5 +19,11 @@
       color: #333;
       font-size: 2em;
       text-align: center;
+   }
+   .image1{
+      border: 2px solid white;
+   }
+   .image2{
+      border: 4px solid yellow;
    }
 </style>
