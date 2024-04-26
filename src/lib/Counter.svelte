@@ -1,10 +1,15 @@
 <script>
-   let count = 0
+   let count1 = 0
+   let count2 = 0
    function increment() {
-      count += 1
+      count1 += 1
+   }
+   function increment2() {
+      count2 += 1
    }
 </script>
-<button on:click={increment}>Clicks {count}</button>
+<button on:click={increment}>Clicks {count1}</button>
+<button on:click={increment2}>Clicks {count2}</button>
 
 <style>
    button {
