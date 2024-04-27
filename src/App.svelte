@@ -4,6 +4,8 @@
 
 <Counter />
 <Counter />
+<Counter />
+<Counter />
 
 <style>
 </style>
